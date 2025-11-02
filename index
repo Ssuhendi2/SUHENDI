@@ -93,12 +93,12 @@
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2012 - 2018</div>
+                    <div class="timeline-date">2009 - 2012</div>
                     <div class="timeline-content">
                         <h3>Slickline Specialist</h3>
-                        <p class="company">Nama Perusahaan | Lokasi</p>
+                        <p class="company">Schlumberger | Balikpapan, Indonesia</p>
                         <ul>
-                            <li>Achievement 1: Executed [X] successful slickline runs with zero LTI.</li>
+                            <li>Achievement 1: Slickline operation supporting Coil Tubing in barge.</li>
                             <li>Achievement 2: Specialized in high-pressure well interventions.</li>
                         </ul>
                     </div>
@@ -111,8 +111,8 @@
                         <h3>Vx Specialist</h3>
                         <p class="company">SCHLUMBERGER | Duri, Riau, Indonesia</p>
                         <ul>
-                            <li>Achievement 1: Mobile well test using Vx truck mounted with 3 well/day.</li>
-                            <li>Achievement 2: Onloan / flying squad for Vx mobile test at several country, such as Iran, Sudan, Oman, and Brunei</li>
+                            <li>Achievement 1: Mobile well test using MPFM PhaseTester Vx truck mounted with objectives test 3 well/day.</li>
+                            <li>Achievement 2: Onloan / flying squad for MPFM Vx mobile test at several country, such as Iran, Sudan, Oman, and Brunei</li>
                         </ul>
                     </div>
                 </div>
