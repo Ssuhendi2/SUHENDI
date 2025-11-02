@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Nama Anda] - Oil & Gas Professional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>[GANTI DENGAN NAMA ANDA]</h1>
+                <p>Well Testing & Data Acquisition Specialist</p>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Experienced Oil & Gas Field Professional</h2>
+                <p>Specializing in Well Testing, Data Acquisition, MPFM, and Slickline Operations since 2005.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="cv.pdf" class="cta-button secondary" download>Download CV</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    As a seasoned Oil & Gas field professional with a career spanning since 2005, I bring nearly two decades of hands-on expertise in critical upstream operations. 
+                    My specialization lies in <strong class="highlight">Well Testing</strong>, <strong class="highlight">Data Acquisition (DAQ)</strong>, <strong class="highlight">Multiphase Flow Meter (MPFM)</strong> validation, and <strong class="highlight">Slickline Operations</strong>.
+                </p>
+                <p>
+                    I am driven by a commitment to operational excellence, data integrity, and upholding the highest standards of safety (HSE). Throughout my career, I have successfully managed complex field projects, ensured accurate production data, and optimized well performance.
+                </p>
+                <p>
+                    I am adept at troubleshooting complex equipment, leading field crews, and interfacing with clients to deliver results safely and efficiently. I am now looking to leverage my deep technical knowledge in a challenging new role.
+                </p>
+            </div>
+        </section>
+
+        <section id="expertise" class="container">
+            <h2>Core Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3>Well Testing & MPFM</h3>
+                    <p>Surface Well Testing (SWT), separator operations, MPFM validation, calibration, and troubleshooting. Flow rate analysis.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Data Acquisition (DAQ)</h3>
+                    <p>Real-time DAQ systems management. Sensor installation (Pressure, Temperature, Flow), calibration, and data quality control (QA/QC).</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Slickline Operations</h3>
+                    <p>Well intervention, pressure/temperature surveys, running/pulling plugs, shifting sleeves, and safe pressure control (PCE) operations.</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>HSE & Compliance</h3>
+                    <p>Strong commitment to safety-first culture, permit-to-work systems, and incident-free operations. (Tambahkan sertifikasi HSE Anda di sini).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="container">
+            <h2>Career Journey</h2>
+            <p class="section-intro">A timeline of my professional experience since 2005.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Well Testing Supervisor</h3>
+                        <p class="company">Nama Perusahaan | Lokasi</p>
+                        <ul>
+                            <li>Achievement 1: Led [X] project, achieving 99% data uptime.</li>
+                            <li>Achievement 2: Identified MPFM anomaly, saving [X] in potential production loss.</li>
+                            <li>Achievement 3: Mentored junior DAQ operators.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2012 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>Slickline Specialist</h3>
+                        <p class="company">Nama Perusahaan | Lokasi</p>
+                        <ul>
+                            <li>Achievement 1: Executed [X] successful slickline runs with zero LTI.</li>
+                            <li>Achievement 2: Specialized in high-pressure well interventions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2005 - 2012</div>
+                    <div class="timeline-content">
+                        <h3>Data Acquisition Operator</h3>
+                        <p class="company">Nama Perusahaan | Lokasi</p>
+                        <ul>
+                            <li>Achievement 1: Responsible for sensor setup and data reporting.</li>
+                            <li>Achievement 2: Gained foundational experience in Well Testing procedures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p class="section-intro">I'm open to new opportunities. Let's connect.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> [EMAIL-ANDA@GMAIL.COM]</p>
+                <p><strong>LinkedIn:</strong> <a href="[LINK-KE-PROFIL-LINKEDIN-ANDA]" target="_blank">linkedin.com/in/[username-anda]</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [NAMA ANDA]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
