@@ -12,7 +12,7 @@
     <header>
         <nav>
             <div class="logo">
-                <h1>[GANTI DENGAN NAMA ANDA]</h1>
+                <h1>SUHENDI HAMIM</h1>
                 <p>Well Testing & Data Acquisition Specialist</p>
             </div>
             <ul>
@@ -28,7 +28,7 @@
         <section id="hero">
             <div class="hero-content">
                 <h2>Experienced Oil & Gas Field Professional</h2>
-                <p>Specializing in Well Testing, Data Acquisition, MPFM, and Slickline Operations since 2005.</p>
+                <p>Specializing in Well Testing, Data Acquisition, MPFM Vx Spectra, and Slickline Operations since 2005.</p>
                 <a href="#contact" class="cta-button">Get in Touch</a>
                 <a href="cv.pdf" class="cta-button secondary" download>Download CV</a>
             </div>
@@ -39,7 +39,7 @@
             <div class="about-content">
                 <p>
                     As a seasoned Oil & Gas field professional with a career spanning since 2005, I bring nearly two decades of hands-on expertise in critical upstream operations. 
-                    My specialization lies in <strong class="highlight">Well Testing</strong>, <strong class="highlight">Data Acquisition (DAQ)</strong>, <strong class="highlight">Multiphase Flow Meter (MPFM)</strong> validation, and <strong class="highlight">Slickline Operations</strong>.
+                    My specialization lies in <strong class="highlight">Well Testing</strong>, <strong class="highlight">Data Acquisition (DAQ)</strong>, <strong class="highlight">Multiphase Flow Meter Vx (MPFM)</strong> validation, and <strong class="highlight">Slickline Operations</strong>.
                 </p>
                 <p>
                     I am driven by a commitment to operational excellence, data integrity, and upholding the highest standards of safety (HSE). Throughout my career, I have successfully managed complex field projects, ensured accurate production data, and optimized well performance.
@@ -125,13 +125,13 @@
             <p class="section-intro">I'm open to new opportunities. Let's connect.</p>
             <div class="contact-info">
                 <p><strong>Email:</strong> [EMAIL-ANDA@GMAIL.COM]</p>
-                <p><strong>LinkedIn:</strong> <a href="[LINK-KE-PROFIL-LINKEDIN-ANDA]" target="_blank">linkedin.com/in/[username-anda]</a></p>
+                <p><strong>LinkedIn:</strong> <a href="[LINK-KE-PROFIL-LINKEDIN-ANDA]" target="_blank">linkedin.com/in/suhendi</a></p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 [NAMA ANDA]. All rights reserved.</p>
+        <p>&copy; 2025 [SUHENDI]. All rights reserved.</p>
     </footer>
 
 </body>
