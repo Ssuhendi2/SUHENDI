@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Nama Anda] - Oil & Gas Professional</title>
+    <title>SUHENDI HAMIM - Oil & Gas Professional</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -81,7 +81,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">2018 - Present</div>
                     <div class="timeline-content">
-                        <h3>Senior Well Testing Supervisor</h3>
+                        <h3></h3>
                         <p class="company">Nama Perusahaan | Lokasi</p>
                         <ul>
                             <li>Achievement 1: Led [X] project, achieving 99% data uptime.</li>
@@ -106,13 +106,13 @@
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2005 - 2012</div>
+                    <div class="timeline-date">2005 - 2009</div>
                     <div class="timeline-content">
-                        <h3>Data Acquisition Operator</h3>
-                        <p class="company">Nama Perusahaan | Lokasi</p>
+                        <h3>Vx Specialist</h3>
+                        <p class="company">SCHLUMBERGER | Duri, Riau, Indonesia</p>
                         <ul>
-                            <li>Achievement 1: Responsible for sensor setup and data reporting.</li>
-                            <li>Achievement 2: Gained foundational experience in Well Testing procedures.</li>
+                            <li>Achievement 1: Mobile well test using Vx truck mounted with 3 well/day.</li>
+                            <li>Achievement 2: Onloan / flying squad for Vx mobile test at several country, such as Iran, Sudan, Oman, and Brunei</li>
                         </ul>
                     </div>
                 </div>
@@ -124,7 +124,8 @@
             <h2>Contact</h2>
             <p class="section-intro">I'm open to new opportunities. Let's connect.</p>
             <div class="contact-info">
-                <p><strong>Email:</strong> [EMAIL-ANDA@GMAIL.COM]</p>
+                <p><strong>Email:</strong>Ssuhendi2@gmail.com</p>
+                <p><strong>Mobile:</strong>+62 81381352514</p>
                 <p><strong>LinkedIn:</strong> <a href="[LINK-KE-PROFIL-LINKEDIN-ANDA]" target="_blank">linkedin.com/in/suhendi</a></p>
             </div>
         </section>
