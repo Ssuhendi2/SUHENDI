@@ -228,6 +228,7 @@ nav ul li a:hover {
     padding: 1rem 2rem;
     position: relative;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .timeline-item:nth-child(odd) {
@@ -253,14 +254,15 @@ nav ul li a:hover {
     border-radius: 50%;
     top: 1.5rem;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 .timeline-item:nth-child(odd) .timeline-dot {
-    right: -11px;
+    right: -8px;
 }
 
 .timeline-item:nth-child(even) .timeline-dot {
-    left: -11px;
+    left: -8px;
 }
 
 .timeline-date {
