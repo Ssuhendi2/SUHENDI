@@ -312,6 +312,39 @@ footer {
     margin-top: 2rem;
 }
 
+/* ==== Bagian Projects ==== */
+.project-section {
+    background: var(--light-grey); /* Samakan dengan 'about' */
+}
+
+.project-card {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--secondary-color); /* Aksen hijau */
+    padding: 2rem;
+    display: flex; /* Untuk ikon/gambar nanti */
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.project-card img {
+    width: 100px; /* Atur ukuran ikon/gambar */
+    height: 100px;
+    object-fit: contain;
+}
+
+.project-content h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.project-content .project-status {
+    font-weight: 700;
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
 /* ==== Responsif untuk Seluler ==== */
 @media (max-width: 768px) {
     nav {
