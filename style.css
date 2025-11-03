@@ -260,7 +260,7 @@ nav ul li a:hover {
 }
 
 .timeline-item:nth-child(even) .timeline-dot {
-    left: -8px;
+    left: -11px;
 }
 
 .timeline-date {
