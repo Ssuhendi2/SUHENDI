@@ -9,21 +9,27 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>SUHENDI HAMIM</h1>
-                <p>Surface Well Test & Data Acquisition Specialist</p>
-            </div>
+<header>
+    <nav>
+        <div class="logo">
+            <h1>SUHENDI HAMIM</h1>
+            <p>Surface Well Testing & Data Acquisition Specialist</p>
+        </div>
+
+        <div class="nav-links" id="nav-links">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#career">Career</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#career">Career</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            &#9776; </button>
+    </nav>
+</header>
 
     <main>
         <section id="hero">
@@ -203,6 +209,27 @@
     <footer>
         <p>&copy; 2025 [SUHENDI].</p>
     </footer>
+    
+<script>
+        // Ambil tombol dan menu dari HTML
+        const navToggle = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+        // Ambil semua link di dalam menu
+        const navLinksList = document.querySelectorAll('.nav-links ul li a');
 
+        // 1. Saat tombol hamburger di-klik
+        navToggle.addEventListener('click', function() {
+            // Tampilkan atau sembunyikan menu
+            navLinks.classList.toggle('active');
+        });
+
+        // 2. (Bonus) Sembunyikan menu setelah salah satu link di-klik
+        //    Ini penting untuk navigasi satu halaman
+        navLinksList.forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
