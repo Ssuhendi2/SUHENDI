@@ -56,7 +56,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between; /* Pastikan sejajar */
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -99,10 +99,10 @@ nav .logo p {
 }
 
 .nav-toggle {
-    display: none; /* Sembunyikan di desktop */
+    display: none;
     background: none;
     border: none;
-    font-size: 2rem; /* Ukuran ikon */
+    font-size: 2rem;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -141,7 +141,7 @@ nav .logo p {
 }
 
 .cta-button:hover {
-    background: #007a28; /* Hijau lebih gelap */
+    background: #007a28;
 }
 
 .cta-button.secondary {
@@ -208,7 +208,6 @@ nav .logo p {
 #career {
     background: var(--light-grey);
 }
-
 .section-intro {
     text-align: center;
     font-size: 1.1rem;
@@ -303,9 +302,80 @@ nav .logo p {
     margin-top: 0.5rem;
 }
 
+/* ==== Bagian Kotak Info (Training, Education, dll) ==== */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-left: 4px solid var(--secondary-color);
+}
+
+.info-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.info-card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* ==== Bagian Projects ==== */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--secondary-color);
+    padding: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.project-card .project-status {
+    font-weight: 700;
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.project-card a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
 /* ==== Bagian Kontak ==== */
 #contact {
     text-align: center;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
 }
 
 .contact-info a {
@@ -323,86 +393,50 @@ footer {
     margin-top: 2rem;
 }
 
-/* ==== Bagian Projects ==== */
-.project-section {
-    background: var(--light-grey); /* Samakan dengan 'about' */
-}
-
-.project-card {
-    background: var(--white);
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    border-left: 5px solid var(--secondary-color); /* Aksen hijau */
-    padding: 2rem;
-    display: flex; /* Untuk ikon/gambar nanti */
-    gap: 1.5rem;
-    align-items: center;
-}
-
-.project-card img {
-    width: 100px; /* Atur ukuran ikon/gambar */
-    height: 100px;
-    object-fit: contain;
-}
-
-.project-content h3 {
-    margin-top: 0;
-    color: var(--primary-color);
-}
-
-.project-content .project-status {
-    font-weight: 700;
-    font-style: italic;
-    color: var(--secondary-color);
-}
-
 /* ==== Responsif untuk Seluler ==== */
 @media (max-width: 768px) {
     .nav-toggle {
-    display: block; /* Tampilkan tombol hamburger di mobile */
-}
+        display: block;
+    }
 
-.nav-links {
-    display: none; /* Sembunyikan menu di mobile by default */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: var(--white);
+        width: 100%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        z-index: 999;
+    }
 
-    /* Ini adalah tampilan menu saat muncul */
-    position: absolute;
-    top: 60px; /* Atur jarak dari atas (sesuaikan jika perlu) */
-    left: 0;
-    background: var(--white);
-    width: 100%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    z-index: 999;
-}
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.nav-links.active {
-    display: flex; /* Tampilkan menu saat di-klik (dapat class 'active') */
-    flex-direction: column;
-    align-items: center;
-}
+    .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
-.nav-links ul {
-    flex-direction: column; /* Susun link ke bawah */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+    .nav-links ul li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
 
-.nav-links ul li {
-    margin: 0; /* Hapus margin kiri */
-    width: 100%;
-    text-align: center;
-}
+    .nav-links ul li a {
+        display: block;
+        padding: 1rem;
+    }
 
-.nav-links ul li a {
-    display: block; /* Buat link jadi full-width */
-    padding: 1rem; /* Beri area klik yang lebih besar */
-}
-
-.nav-links ul li a:hover {
-    background: var(--light-grey); /* Beri feedback saat di-hover */
-}
-    
+    .nav-links ul li a:hover {
+        background: var(--light-grey);
+    }
 
     #hero h2 {
         font-size: 2rem;
